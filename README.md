@@ -2,18 +2,23 @@
 
 [![Deploy to IONOS](https://images.ionos.space/deploy-now-icons/deploy-to-ionos-btn.svg)](https://ionos.space/setup?repo=https://github.com/ionos-deploy-now/hello-jigsaw)
 
-# Jigsaw Blog Starter Template
+## Jigsaw Blog Starter Template
 
 This is a starter template for creating a beautiful, customizable blog in Jigsaw with minimal effort. You’ll only have to change a few settings and you’re ready to go.
 
 [View a preview of the blog template.](http://jigsaw-blog-staging.tighten.co/)
 
-## Installation
+## Setup
 
-After installing Jigsaw, run the following command from your project directory:
-
+Install dependencies
 ```bash
-./vendor/bin/jigsaw init blog
+composer install
+npm install
+```
+
+Start development server
+```bash
+./vendor/bin/jigsaw serve
 ```
 
 This starter template includes samples of common page types, and comes pre-configured with:

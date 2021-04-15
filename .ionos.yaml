@@ -3,13 +3,13 @@ distFolder: build_production
 setup:
 - name: Setup composer
   action: php-actions/composer@v2
-- name: Setup Node.js
+- name: Setup Node.js v12.22.x
   action: actions/setup-node@v1
   properties:
-    node-version: v10.16.3
+    node-version: v12.22.x
 prepare:
   name: Prepare Project build environment
   command: npm ci
 build:
   name: Build Jigsaw
-  command: npm run production
+  command: npm run prod
