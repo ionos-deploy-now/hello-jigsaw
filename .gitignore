@@ -1,7 +1,5 @@
 /build_*/
 /node_modules/
+/source/assets/build/
 /vendor/
-/source/assets/build/*
 .DS_Store
-*.log
-npm-debug.log*

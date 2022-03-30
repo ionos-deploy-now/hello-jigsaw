@@ -1,24 +1,15 @@
-# hello-jigsaw
-
-[![Deploy to IONOS](https://images.ionos.space/deploy-now-icons/deploy-to-ionos-btn.svg)](https://ionos.space/setup?repo=https://github.com/ionos-deploy-now/hello-jigsaw)
-
-## Jigsaw Blog Starter Template
+# Jigsaw Blog Starter Template
 
 This is a starter template for creating a beautiful, customizable blog in Jigsaw with minimal effort. You’ll only have to change a few settings and you’re ready to go.
 
-[View a preview of the blog template.](http://jigsaw-blog-staging.tighten.co/)
+[View a preview of the blog template.](http://jigsaw-blog-template.tighten.co/)
 
-## Setup
+## Installation
 
-Install dependencies
+After installing Jigsaw, run the following command from your project directory:
+
 ```bash
-composer install
-npm install
-```
-
-Start development server
-```bash
-./vendor/bin/jigsaw serve
+./vendor/bin/jigsaw init blog
 ```
 
 This starter template includes samples of common page types, and comes pre-configured with:
@@ -99,6 +90,6 @@ Now that you’ve edited your configuration variables and know how to customize 
 ./vendor/bin/jigsaw build
 
 # compile assets with Laravel Mix
-# options: dev, staging, prod
+# options: dev, prod
 npm run dev
 ```
