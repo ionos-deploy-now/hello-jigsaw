@@ -5,6 +5,9 @@
         "watch": "mix watch",
         "prod": "mix --production"
     },
+    "engines": {
+        "node": ">=16"
+    },
     "devDependencies": {
         "axios": "^0.26.1",
         "browser-sync": "^2.27.9",
